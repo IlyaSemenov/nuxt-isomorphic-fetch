@@ -1,0 +1,32 @@
+{
+ "name": "nuxt-isomorphic-fetch",
+ "version": "0.1.0",
+ "description": "Isomorphic access to server-side API in Nuxt.js asyncData",
+ "main": "build/main.js",
+ "scripts": {
+  "build": "backpack build",
+  "test": "mocha"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/IlyaSemenov/node-isomorphic-data.git"
+ },
+ "keywords": [
+  "nuxtjs",
+  "vue",
+  "isomorphic",
+  "api",
+  "router",
+  "koa"
+ ],
+ "author": "Ilya Semenov <ilya@semenov.co>",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/IlyaSemenov/node-isomorphic-data/issues"
+ },
+ "homepage": "https://github.com/IlyaSemenov/node-isomorphic-data#readme",
+ "devDependencies": {
+  "babel-preset-stage-0": "^6.24.1",
+  "backpack-core": "^0.4.2"
+ }
+}
