@@ -1,3 +1,7 @@
+# DEPRECATION WARNING
+
+This was a fun experiment library I created while learning Vue. I then decided (as probably most folks did) to go with [@nuxtjs/axios](https://github.com/nuxt-community/axios-module) and use local-server HTTP API calls for pulling data even during SSR. Of course, it gives some overhead (namely, for transport layer and for handling authentication), but bypassing those in a reliable and flexible way turned out to be non-trival.
+
 # nuxt-isomorphic-fetch
 
 Isomorphic access to server-side API in Nuxt.js `asyncData`, working uniformly in client-side and server-side environment.
